@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa de Calor</title>
+
+     <!-- CSS -->
+     <link rel="stylesheet" href="static/css/menu.css">
+     <link rel="stylesheet" href="static/css/index.css">
+     
+     
+     <!-- LeafLet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css" integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js" integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin=""></script>     
+    <script src="http://leaflet.github.io/Leaflet.markercluster/example/realworld.10000.js"></script>
+    
+</head>
+
+
+<body>
+    <div class="screen">     
+
+        <div class="menu">
+            <ul>
+                <li class="lock"><a href="index.html">Home</a></li>
+                <li class="share"><a href="mapaCalor.html">Heat Map</a></li>
+                <li class="download"><a href="demo.html">demo</a></li>
+            </ul>
+        </div>
+
+        <div class="toggle">
+            <div class="x"></div>
+            <div class="y"></div>
+        </div>
+
+        <div class="content">
+            <div id="map">
+
+
+            </div>
+        </div>
+        
+    </div>
+
+
+</body>
+
+
+<script src="https://code.jquery.com/jquery-latest.min.js"></script>
+<script src="static/js/menu.js"></script>
+<script src="static/js/mapa.js"></script>
+<script src="static/js/leaflet-heat.js"></script>
+<script src="static/js/calor.js"></script>
+
+
+</html>
