@@ -1,5 +1,5 @@
 # gpos
-Protótipo Funcional criado no módulo ignição em parceria com a Petrobrás com feito de ser um simulador de pessoas dentro de um FPSO utilizando wearables e mecanismos capazes de os localizar para prevenção de acidentes e melhor localização em caso dos mesmos.
+Protótipo Funcional criado no módulo ignição com feito de ser um simulador de pessoas dentro de um local utilizando de mecanismos capazes de os localizar para prevenção de acidentes e melhor localização em caso dos mesmos.
 
 # Entradas
 <b>Demo</b> - Demonstração de localização estática de funcionários para apresentação.<br>
